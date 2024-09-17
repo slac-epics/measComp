@@ -1,0 +1,13 @@
+
+# Enable only VME targets
+CROSS_COMPILER_TARGET_ARCHS = RTEMS-beatnik RTEMS-mvme3100 RTEMS-svgm
+
+# Define ULDAQ version
+ULDAQ_VERSION=1.2.1
+
+# ULDAQ location
+ULDAQ_DIR=$(PACKAGE_SITE_TOP)/uldaq/$(ULDAQ_VERSION)/$(T_A)/lib
+ULDAQ_INCLUDE=$(PACKAGE_SITE_TOP)/uldaq/$(ULDAQ_VERSION)/$(T_A)/include
+
+# For Linux, make sure libusb can be found
+USR_LDFLAGS_Linux=-L$(PACKAGE_SITE_TOP)/libusb/v1.0.20/$(T_A)/lib
