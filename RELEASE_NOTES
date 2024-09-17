@@ -1,0 +1,7 @@
+#
+#  Name: RELEASE_NOTES
+#
+R4.3-1.0.0:		lorelli, 09/16/2024
+    Added SLAC build system changes
+    Added support for rhel9-x86_64 and rhel7-x86_64
+
