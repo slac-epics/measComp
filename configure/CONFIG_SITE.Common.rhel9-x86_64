@@ -1,0 +1,2 @@
+# Link against tirpc for rocky9 (required for SLAC's current version of sscan)
+USR_SYS_LIBS_Linux += tirpc
